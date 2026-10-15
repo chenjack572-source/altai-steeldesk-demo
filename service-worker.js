@@ -1,6 +1,6 @@
-const CACHE = 'altai-steeldesk-public-demo-v1';
+const CACHE = 'altai-steeldesk-public-demo-v2';
 const ASSETS = [
-  './', './index.html', './src/styles.css?v=demo-1', './src/app.js?v=demo-1',
+  './', './index.html', './src/styles.css?v=demo-2', './src/app.js?v=demo-2',
   './manifest.webmanifest', './assets/mark.svg'
 ];
 
@@ -30,3 +30,4 @@ self.addEventListener('fetch', event => {
       .catch(() => caches.match(event.request).then(result => result || caches.match('./index.html')))
   );
 });
+
