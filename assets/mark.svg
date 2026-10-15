@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Altai SteelDesk">
+  <rect width="64" height="64" fill="#111820"/>
+  <path d="M13 48 29 14h8l14 34h-9l-3-8H25l-3 8h-9Zm15-16h8l-4-10-4 10Z" fill="#c8ff3d"/>
+  <path d="M15 53h34" stroke="#8fa0ae" stroke-width="3"/>
+</svg>
