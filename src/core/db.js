@@ -1,4 +1,4 @@
-const DB_NAME = 'altai-steeldesk-public-demo';
+const DB_NAME = 'altai-steeldesk-public-demo-v2';
 const DB_VERSION = 3;
 
 export const STORES = [
@@ -106,3 +106,4 @@ export class IndexedDbProvider {
     }
   }
 }
+
